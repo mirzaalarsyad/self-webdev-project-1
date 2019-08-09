@@ -1,49 +1,126 @@
 body {
-	background-color: rgb(0, 102, 102);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin:0;
+	background-color: #ccccff;
 }
-
-.box0 {
-	width: 100%;
-	height: 650px;
+/*global */
+.main {
+	width:90%;
+	margin: auto;
 	overflow: hidden;
 }
 
-.box0 img {
-	width: 100%;
-	height: 1000px;
-	padding: 0
-}
-
-.box1 {
-	background-color: black;
-	opacity: 0.5;
-	height: 100px;
-}
-.box1 h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 50px; 
-	font-style: bold;
-	font-variant: normal;
-	font-weight: 700;
-	padding-bottom: 1px; 
-	text-align: left;
-	line-height: 0.9;
+button{
+	height: 37px;
+	width: 100px;
 	color: white;
-	}
-
-.box1 h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 20px; 
-	font-style: bold;
-	font-variant: normal;
-	font-weight: 700;
-	padding-bottom: 1px; 
-	text-align: left;
-	line-height: 0.3;
-	color: white;
-	padding-top: -9px;
+	border: 0;
+	background: orange;
+	font-weight: bold;
 }
 
-.box1 {
-	width: 100%;
-	margin: auto;
-	margin-top: -220px;
+/* header */
+.head {
+	background-color: #00001a;
+	color: white;
+	padding-top:30px;
+	min-height: 70px;
+	border-bottom: orange 10px solid;
+}
+
+.head a{
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.head ul{
+	margin: 0;
+	padding: 0;
+}
+
+.head li{
+	display:inline;
+	float: left;
+	padding: 0 15px 0 15px;
+}
+
+.head ul{
+	margin:0; 
+	padding:0;
+}
+
+.head h1{
+	float: left;
+	margin: 0;
+}
+
+.head nav{
+	float: right;
+	margin-top: 13px;
+}
+
+.head .highlight, .head .current a{
+	color: orange;
+	font-weight: bold;
+	display: inline;
+}
+
+.head a:hover{
+	color: orange;
+	font-weight:bold;
+}
+
+/* judul */
+
+.box1{
+	min-height: 430px;
+	background:url('meme.png') no-repeat 0 -1050px;
+	text-align: left;
+	color: white;
+}
+
+.box1 h1{
+	margin-top: 200px;
+	margin-bottom: 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.box1 h4{
+	margin-top: -5px;
+	margin-left: 17px;
+	font-size: 19px;
+	font-weight:bold;
+}
+
+.kritik {
+	background-color: #00001a;
+	padding: 10px;
+	color: white;
+}
+
+.kritik h1{
+	float: left;
+	font-size: 25px
+}
+
+.kritik form{
+	float: right;
+	padding-top: 23px;
+}
+
+.kritik .main{
+	width: 90%;
+
+}
+
+.kritik input{
+	padding:5px;	
+	height: 25px;
+	width: 275px;
 }
